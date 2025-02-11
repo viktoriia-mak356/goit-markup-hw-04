@@ -204,10 +204,35 @@ color:#404bbf;
 }
 
 .svg-img1 {
-    display: flex;
-        fill:#f4f4fd;
-        
+     border: 1px solid #8e8f99;
+     border-radius: 4px;
+     width: 264px;
+     height: 112px;
+     gap: 24px;
+}
 
+.svg-img2 {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    gap: 24px;
+}
+
+.svg-img3 {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    gap: 24px;
+}
+
+.svg-img4 {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    gap: 24px;
 }
 
 .strategy-subtitle {
@@ -278,6 +303,21 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 text-align: center;
+}
+
+.social-list-team {
+    padding: 0 16px;
+    margin: 8px auto;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-link-team {
+   
+}
+.svg-img {
+    fill: #f4f4fd;
 }
 
 /* Section 4 */
@@ -368,4 +408,20 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
+}
+
+.footer-social-text {
+    display: flex;
+    align-items: baseline;
+    
+}
+
+.footer-social-icon {}
+
+.list-social-icon {}
+
+.social-link {}
+
+.social-icon {
+    fill: #f4f4fd;
 }
