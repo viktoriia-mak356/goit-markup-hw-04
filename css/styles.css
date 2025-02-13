@@ -317,7 +317,7 @@ text-align: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-img-team{
+.svg-img-team {
     fill: #f4f4fd;
 }
 
@@ -332,10 +332,6 @@ text-align: center;
 .port{
 padding-top: 120px;
 padding-bottom: 120px;
-box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .port-container{
@@ -349,6 +345,9 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .port-list-item {
@@ -356,9 +355,17 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.port-list-item:hover,
+.port-list-item:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .port-list-item:hover .port-cover-text {
     transform: translateY(0);
 }
+
 .port-cover-wrap {
    position: relative; 
    overflow: hidden;
@@ -368,7 +375,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     position: absolute;
     top: 0;
     left: 0;
-    padding: 32px 40px;
+    padding: 40px 32px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
