@@ -45,7 +45,10 @@
     }
 
     .header {
-        border-bottom: 1px solid #e7e9fc
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
+        border-bottom: 1px solid #e7e9fc;
     }
 
 .header-container {
@@ -88,7 +91,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2e2f42;
 padding: 24px 0;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 position: relative;
 display: block;
 }
@@ -127,7 +130,7 @@ color:#404bbf;
     /* gap: 40px; */
     padding: 24px;
     display: flex;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-address-contacts:hover,
 .header-address-contacts:focus {
@@ -147,6 +150,7 @@ color:#404bbf;
     padding: 188px 0;
     max-width: 1440px;
     margin: 0 auto;
+    background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -260,6 +264,9 @@ color: #434455;
 .team {
 background-color: #f4f4fd;
 padding: 120px 0;
+0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-title {
@@ -327,7 +334,8 @@ text-align: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link-team:hover {
+.social-link-team:hover,
+.social-link-team:focus {
     background-color: #404bbf;
 }
 
@@ -337,6 +345,10 @@ text-align: center;
 .port{
 padding-top: 120px;
 padding-bottom: 120px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .port-container{
